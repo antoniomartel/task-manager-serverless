@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "2aba3655-8fda-4f27-b11e-45d31b6816ca",
+		"name": "task-manager-api.postman_collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2980823"
+	},
+	"item": [
+		{
+			"name": "https://vw80tqfvkl.execute-api.eu-west-1.amazonaws.com/dev/tasks",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Buy lenses\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vw80tqfvkl.execute-api.eu-west-1.amazonaws.com/dev/tasks",
+					"protocol": "https",
+					"host": [
+						"vw80tqfvkl",
+						"execute-api",
+						"eu-west-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
