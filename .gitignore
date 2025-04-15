@@ -1,0 +1,35 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# AWS SAM / Serverless Framework
+.aws-sam/
+.serverless/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# IDEs
+.idea/
+
+# Logs
+*.log
+
+# Unit test cache
+.pytest_cache/
